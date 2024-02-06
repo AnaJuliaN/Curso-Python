@@ -1,0 +1,7 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "vscord.status.idle.disconnectOnIdle": false,
+    "vscord.status.problems.text": "- {problems_count} merdas encontradas",
+    "vscord.app.name": "Visual Studio Code"
+}

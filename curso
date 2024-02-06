@@ -1,0 +1,67 @@
+Módulo 1:
+os fundamentos da programação de computadores, ou seja, como o computador funciona, como o programa é executado, como a linguagem de programação é definida e construída;
+
+a diferença entre compilação e interpretação;
+
+as informações básicas sobre Python e como ele está posicionado entre outras linguagens de programação e o que distingue suas diferentes versões;
+
+como obter, instalar e configurar o Python em sua máquina local.os fundamentos da programação de computadores, ou seja, como o computador funciona, como o programa é executado, como a linguagem de programação é definida e construída;
+
+Módulo 2 - seção 2.1:
+1. A função print() é uma função interna. Ele imprime/envia uma mensagem especificada para a tela/janela do console.
+
+2. As funções incorporadas, ao contrário das funções definidas pelo usuário, estão sempre disponíveis e não precisam ser importadas. O Python 3.8 vem com 69 funções integradas. Você pode encontrar a lista completa fornecida em ordem alfabética na Python Standard Library.
+
+3. Para chamar uma função (este processo é conhecido como chamada de função ou invocação de função), você precisa usar o nome da função seguido de parênteses. Você pode passar argumentos para uma função colocando-os dentro dos parênteses. Você deve separar os argumentos com uma vírgula, por exemplo, print("Olá,", "world!"). Um print() vazio imprime uma linha vazia na tela.
+
+4. Strings no Python são delimitadas por aspas, por exemplo, "eu sou um barbante" (aspas duplas), ou 'eu sou um barbante, demasiado' (aspas simples).
+
+5. Programas de computador são uma coleção de instruções. Uma instrução é um comando para executar uma tarefa específica quando executado, por exemplo, para imprimir uma determinada mensagem na tela.
+
+6. Em Strings do Python a barra invertida (\) é um caracter especial que anuncia que o próximo caracter terá um significado diferente, por exemplo, \n (o caracter de nova linha) inicia uma nova linha de saída.
+
+7. Argumentos posicionais são aqueles cujo significado é ditado por sua posição, por exemplo, o segundo argumento é gerado após o primeiro, o terceiro é gerado após o segundo, etc.
+
+8. Argumentos de palavras-chave são aqueles cujo significado não é ditado por sua localização, mas por uma palavra especial (palavra-chave) usada para identificá-los.
+
+9. Os parâmetros end e sep podem ser utilizadas para formatar a saída do print(). O parâmetro sep especifica o separador entre os argumentos de saída, por exemplo, print("H", "E", "L", "L", "O", sep="-"), enquanto o parâmetro end especifica o que imprimir no final da impressão.
+
+seção 2.2:
+1. Literais são notações para representar alguns valores fixos no código. Python tem vários tipos de literais - por exemplo, um literal pode ser um número (literais numéricos, por exemplo, 123) ou uma string (literais de string, por exemplo, "Eu sou um literal".).
+
+2. O sistema binário é um sistema de números que emprega 2 como base. Portanto, um número binário é composto de 0s e 1s apenas, por exemplo, 1010 é 10 em decimal.
+
+Os sistemas de numeração octal e hexadecimal, da mesma forma, empregam 8 e 16 como suas bases respectivamente. O sistema hexadecimal usa os números decimais e seis letras extras.
+3. Inteiros (ou simplesmente ints) são um dos tipos numéricos compatíveis com o Python. São números escritos sem um componente fracionário, por exemplo, 256 ou -1 (números inteiros negativos).
+
+4. Ponto flutuante (ou simplesmente float) são outro dos tipos numéricos compatíveis com o Python. São números que contêm (ou são capazes de conter) um componente fracionário, por exemplo, 1.27.
+
+5. Para codificar um apóstrofo ou uma aspas dentro de uma string, você pode usar o caracter de escape, por exemplo, 'I\'m happy.' ou abrir e fechar a string usando um conjunto oposto de símbolos aos que você deseja codificar, por exemplo, "I'm happy." para codificar um apóstrofo e 'Ele disse "Python", não "typhoon"' para codificar uma aspas (dupla).
+
+6. Valores booleanos são os dois objetos constantes True e False usados para representar valores de verdade (em contextos numéricos, 1 é True, enquanto 0 é False.
+
+
+  Extra  
+
+Há mais um literal especial usado em Python: o literal None. Esse literal é um objeto NoneType e é usado para representar a ausência de um valor. Vamos contar mais sobre isso em breve.
+
+Seção 2.3:
+1. Uma expressão é uma combinação de valores (ou variáveis, operadores, chamadas para funções - você aprenderá sobre eles em breve) que resulta em um determinado valor, por exemplo, 1 + 2.
+
+2. Operadores são símbolos especiais ou palavras-chave que são capazes de operar nos valores e realizar operações (matemáticas), por exemplo, o operador * multiplica dois valores: x * y.
+
+3. Operadores aritméticos em Python: + (adição), - (subtração), * (multiplicação), / (divisão clássica ‒ sempre retorna um ponto flutuante), % (módulo ‒ divide o operando esquerdo pelo operando direito e retorna o restante da operação, por exemplo , 5 % 2 = 1), ** (exponenciação ‒ operando esquerdo elevado à potência do operando direito, por exemplo, 2 ** 3 = 2 * 2 * 2 = 8), // (floor/divisão inteira ‒ retorna um número resultante da divisão, mas arredondado para o número inteiro mais próximo, por exemplo, 3 // 2.0 = 1.0)
+
+4. Um operador unário é um operador com apenas um operando, por exemplo, -1 ou +3.
+
+5. Um operador binário é um operador com dois operandos, por exemplo, 4 + 5 ou 12 % 5.
+
+6. Alguns operadores agem antes de outros - a hierarquia de prioridades:
+
+o operador ** (exponenciação) tem a prioridade mais alta;
+então o unário + e - (Nota: um operador unário à direita do operador de exponenciação se liga mais fortemente, por exemplo, 4 ** -1 é igual a 0.25)
+então: *, /, e %,
+e, por fim, a prioridade mais baixa: binário + e -.
+7. Subexpressões entre parênteses são sempre calculadas primeiro, por exemplo, 15 - 1 * (5 * (1 + 2)) = 0.
+
+8. O operador de exponenciação usa a associação do lado direito, por exemplo, 2 ** 2 ** 3 = 256.
